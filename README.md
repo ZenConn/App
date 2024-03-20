@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/ZenConn/App/workflows/ci/badge.svg)](https://github.com/ZenConn/App/actions)
+[![Actions Status](https://github.com/ZenConn/App/workflows/Tests/badge.svg)](https://github.com/ZenConn/App/actions)
 [![codecov](https://codecov.io/gh/ZenConn/App/branch/master/graph/badge.svg)](https://codecov.io/gh/ZenConn/App)
 
 <p align="center">
