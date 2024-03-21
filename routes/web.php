@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::middleware(['auth'])->get( '/protected', function () {
+    abort(404);
+});
+
+Route::middleware(['guest'])->get( '/unprotected', function () {
+    abort(404);
+});
